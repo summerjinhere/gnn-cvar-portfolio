@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+*.log
+~$*
+
+# raw market data (Yahoo Finance terms: no redistribution) - regenerate locally
+data/*_stocks_*.csv
