@@ -1,0 +1,92 @@
+{
+ "SEED": 42,
+ "SECTORS": {
+  "Technology": [
+   "AAPL",
+   "MSFT",
+   "GOOGL",
+   "META",
+   "NVDA",
+   "TSLA"
+  ],
+  "Healthcare": [
+   "JNJ",
+   "PFE",
+   "ABT",
+   "TMO",
+   "UNH",
+   "MRK"
+  ],
+  "Financial": [
+   "JPM",
+   "BAC",
+   "WFC",
+   "C",
+   "GS",
+   "MS"
+  ],
+  "Consumer": [
+   "AMZN",
+   "HD",
+   "MCD",
+   "NKE",
+   "SBUX",
+   "LOW"
+  ],
+  "Energy": [
+   "XOM",
+   "CVX",
+   "COP",
+   "EOG",
+   "SLB",
+   "PSX"
+  ]
+ },
+ "TICKERS": [
+  "AAPL",
+  "MSFT",
+  "GOOGL",
+  "META",
+  "NVDA",
+  "TSLA",
+  "JNJ",
+  "PFE",
+  "ABT",
+  "TMO",
+  "UNH",
+  "MRK",
+  "JPM",
+  "BAC",
+  "WFC",
+  "C",
+  "GS",
+  "MS",
+  "AMZN",
+  "HD",
+  "MCD",
+  "NKE",
+  "SBUX",
+  "LOW",
+  "XOM",
+  "CVX",
+  "COP",
+  "EOG",
+  "SLB",
+  "PSX"
+ ],
+ "START": "2015-01-01",
+ "END": "2024-12-31",
+ "TRAIN_DAYS": 756,
+ "HORIZON": 21,
+ "CORR_THRESHOLD": 0.3,
+ "SHRINK": 0.5,
+ "ALPHA": 0.95,
+ "RISK_AVERSION": 5.0,
+ "W_MAX": 0.15,
+ "COST_BPS": 10,
+ "EPOCHS": 150,
+ "HIDDEN": 32,
+ "EMB": 16,
+ "LR": 0.01,
+ "RF_ANNUAL": 0.0
+}
